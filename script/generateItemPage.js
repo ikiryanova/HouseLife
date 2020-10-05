@@ -52,6 +52,7 @@ const generateItemPage = () => {
         btnAddWishlist.classList.remove('contains-wishlist');
       }
     }
+    checkWishList();
 
     btnAddWishlist.addEventListener('click', () => {
       userData.wishList = id;
